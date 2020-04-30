@@ -6,7 +6,7 @@ author_profile: true
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/bryce.jpg
+  overlay_image: /assets/images/unsplash-image-1.jpg
   caption: "Bryce Canyon National Park"
 excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
