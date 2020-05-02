@@ -1,5 +1,5 @@
 ---
-title: Welcome to my website
+title: Splash page
 layout: splash
 permalink: /splash/
 hidden: true

@@ -26,7 +26,9 @@ group :jekyll_plugins do
     gem "jekyll-seo-tag", "~> 2.3"
     gem "jekyll-redirect-from", "~> 0.12"
     gem "jekyll-default-layout", "~> 0.1"
+    gem "jekyll-gist"
     gem "jekyll-feed", "~> 0.9"
+    gem "jekyll-algolia"
     gem "jemoji", "~> 0.9"
     gem "jekyll-remote-theme", "~> 0.3"
 end

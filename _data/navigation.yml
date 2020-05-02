@@ -1,12 +1,16 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Home"
-    url: https://cshsu.github.io/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  #- title: "Quick-Start Guide"
+  # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "Home"
+  # url: https://cshsu.github.io/
+  - title: "Curriculum Vitae"
+    url: /resume/
+  - title: "Research"
+    url: /research/
+  #- title: "Blog"
+  # url: /blog/
+  - title: "Casual Writing"
+    url: /casual-writing/
   - title: "Sitemap"
     url: /sitemap/

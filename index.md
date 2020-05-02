@@ -1,18 +1,18 @@
 ---
 title: "Welcome to my website"
+permalink: /
 layout: single
 classes: wide
 author_profile: true
-permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: /assets/images/bryce.jpg
   caption: "Bryce Canyon National Park"
 excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
   <small>Last updated: </small>
 feature_row1:
-  - image_path: /assets/images/bryce.jpg
+  - image_path: /assets/images/unsplash-image-1.jpg
     alt: "placeholder image 1"
     title: "Placeholder Image Left Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
@@ -32,3 +32,17 @@ Nobis putent vivendum ad eos, te his audire percipit postulant, alii putant diss
 Nec cu dicit noster suscipiantur, commune apeirian id qui, ut vim duis omnes audire. Eum quidam patrioque id, sit ne inermis abhorreant. Pro cu invenire definiebas, ei vis legere voluptatibus. Stet maiestatis vis ut, mel ut augue erant laboramus.
 
 At sit minimum epicuri eligendi, in pro consul accusamus hendrerit, est hinc verterem constituam an. Malis electram ad sea. In per molestie disputando, nam eloquentiam necessitatibus ex. Id ius animal blandit noluisse, partem diceret in per, salutatus inciderint at mel. Ad mea primis senserit.
+
+## Note
+
+To reveal the awesome information in the sidebar, please turn off any ad blocker for this site.
+
+## Acknowledgment
+
+I would like to acknowledge the following GitHub repositories:
+
+* [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes): for creating this elegant site theme
+
+* [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io): for the minor tweaking of the navigation style and for providing the CV markdown template
+
+  
