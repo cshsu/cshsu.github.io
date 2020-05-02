@@ -10,7 +10,7 @@ header:
   caption: "Bryce Canyon National Park"
 excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small>Last updated: </small>
+  <small>Last updated: May 2, 2020 </small>
 feature_row1:
   - image_path: /assets/images/unsplash-image-1.jpg
     alt: "placeholder image 1"
