@@ -87,19 +87,19 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Chia-Sheng.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person." # Note: Markdown is allowed
   location         : "Atlanta, GA"
   email            : 
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "far fa-envelope"
       url: mailto:chiasheng@gatech.edu
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/chiasheng/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/cshsu"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
@@ -247,6 +247,12 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  albums:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -255,7 +261,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: true
       share: true
@@ -266,14 +272,17 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       comments: false
-  # _travel
+  # _albums
   - scope:
-      path: ""
-      type: travel
+      path: "_albums"
+      type: albums
     values:
-      layout: single
+      layout: collection
       author_profile: false
+      read_time: false
       share: true
       comments: true
+      sidebar:
+        nav: "docs"

@@ -8,9 +8,27 @@ main:
     url: /resume/
   - title: "Research"
     url: /research/
-  #- title: "Blog"
-  # url: /blog/
   - title: "Casual Writing"
     url: /casual-writing/
+  - title: "Albums"
+    url: /albums/
+  - title: "Contact"
+    url: /contact/
   - title: "Sitemap"
     url: /sitemap/
+
+# navigation sidebar: add the following to the YAML front matter
+# sidebar:
+#   nav: "docs"
+docs:
+  - title: My albums
+    children:
+      - title: "Album 1"
+        url: /albums/album1/
+      #- title: "Structure"
+      #  url: /albums/structure/
+      # - title: "Installation"
+      # url: /albums/installation/
+      # - title: "Upgrading"
+      #  url: /albums/upgrading/
+      

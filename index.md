@@ -21,7 +21,7 @@ feature_row1:
     btn_class: "btn--primary"
 ---
 
-This is my homepage using Minimal Mistakes theme.
+Welcome to my GitHub Pages site.
 
 {% include feature_row id="feature_row1" type="left"%}
 
@@ -29,13 +29,12 @@ Lorem ipsum dolor sit amet, ius eu congue audiam quaeque, te cetero maiorum his.
 
 Nobis putent vivendum ad eos, te his audire percipit postulant, alii putant dissentias et sit. No ius amet utroque detraxit, sed ea veritus deserunt delicata. Eum zril aliquam ea, id sit voluptua antiopam, nam accusata splendide id. No mei habemus delicata dissentiunt, omnes incorrupte eu mei. Choro soleat omittam pro cu. Offendit deserunt voluptatibus ius an. Ea mundi graece delicatissimi eam.
 
-Nec cu dicit noster suscipiantur, commune apeirian id qui, ut vim duis omnes audire. Eum quidam patrioque id, sit ne inermis abhorreant. Pro cu invenire definiebas, ei vis legere voluptatibus. Stet maiestatis vis ut, mel ut augue erant laboramus.
 
-At sit minimum epicuri eligendi, in pro consul accusamus hendrerit, est hinc verterem constituam an. Malis electram ad sea. In per molestie disputando, nam eloquentiam necessitatibus ex. Id ius animal blandit noluisse, partem diceret in per, salutatus inciderint at mel. Ad mea primis senserit.
 
 ## Note
 
-To reveal the awesome information in the sidebar, please turn off any ad blocker for this site.
+* To reveal the awesome information in the sidebar, please turn off any ad blocker for this site.
+* This site is established with Minimal Mistakes jekyll theme and hosted on GitHub Pages.
 
 ## Acknowledgment
 
@@ -44,5 +43,7 @@ I would like to acknowledge the following GitHub repositories:
 * [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes): for creating this elegant site theme
 
 * [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io): for the minor tweaking of the navigation style and for providing the CV markdown template
+
+* [blmoore/md-cv]([https://github.com/blmoore/md-cv): for the CV style
 
   
