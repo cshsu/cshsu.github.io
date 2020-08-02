@@ -4,31 +4,50 @@ main:
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "Home"
   # url: https://cshsu.github.io/
-  - title: "Curriculum Vitae"
+  - title: "CURRICULUM VITAE"
     url: /resume/
-  - title: "Research"
+  - title: "RESEARCH"
     url: /research/
-  - title: "Casual Writing"
-    url: /casual-writing/
-  - title: "Albums"
+  - title: "NOTES"
+    url: /notes/preface/
+  - title: "CASUAL WRITING"
+    url: /writing/
+  - title: "ALBUMS"
     url: /albums/
-  - title: "Contact"
+  - title: "CONTACT"
     url: /contact/
-  - title: "Sitemap"
-    url: /sitemap/
+  # - title: "Sitemap"
+  #   url: /sitemap/
 
 # navigation sidebar: add the following to the YAML front matter
 # sidebar:
-#   nav: "docs"
-docs:
+#   nav: "albums"
+albums:
   - title: My albums
     children:
-      - title: "Album 1"
-        url: /albums/album1/
-      #- title: "Structure"
-      #  url: /albums/structure/
-      # - title: "Installation"
-      # url: /albums/installation/
-      # - title: "Upgrading"
-      #  url: /albums/upgrading/
-      
+      - title: "People"
+        url: /albums/people/
+      - title: "Badminton"
+        url: /albums/badminton/
+      - title: "GA, USA"
+        url: /albums/georgia/
+      - title: "Christmas trip"
+        url: /albums/christmas-trip/
+
+writing:
+  - title: Casual writing
+    children:
+      - title: "舊檔案庫"
+        url: /writing/00-archive/
+      - title: "想法隨身攜帶"
+        url: /writing/portable-thoughts/
+
+notes:
+  - title: My techinal posts
+    children:
+      - title: "Preface"
+        url: /notes/preface/
+      - title: "Badminton"
+        url: /notes/badminton/
+         
+        

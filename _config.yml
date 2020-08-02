@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My GitHub Pages"
+title                    : "CHIA-SHENG"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : &name "Chia-Sheng Hsu"
-description              : &description "An amazing website."
+description              : &description "A PhD student at Georgia Tech"
 url                      : "https://cshsu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cshsu/cshsu.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -30,21 +30,21 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200  # for reading time estimation
 comments:
-  provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
+  facebook: # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"    
+    num_posts            : 5 # 5 (default)
+    colorscheme          : "light" # "light" (default), "dark"    
 reCaptcha:
+  enabled: true
   siteKey                :
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
 search_provider          : algolia # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -88,9 +88,9 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/Chia-Sheng.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person." # Note: Markdown is allowed
+  bio              : "A PhD journey at *Georgia Tech*, dedicated to the future. May it be brighter than today." # Note: Markdown is allowed
   location         : "Atlanta, GA"
-  email            : 
+  email            :
   links:
     - label: "Email"
       icon: "far fa-envelope"
@@ -200,6 +200,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -208,6 +209,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 
 # Archives
@@ -252,37 +254,57 @@ collections:
   albums:
     output: true
     permalink: /:collection/:path/
+  writing:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
       comments: false
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "notes"
   # _albums
   - scope:
       path: "_albums"
       type: albums
     values:
-      layout: collection
+      layout: single
+      classes: wide
       author_profile: false
-      read_time: false
+      comments: false
       share: true
-      comments: true
+      related: false
       sidebar:
-        nav: "docs"
+        nav: "albums"
+  # _writing
+  - scope:
+      path: ""
+      type: writing
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true
+      related: false
+      sidebar:
+        nav: "writing"

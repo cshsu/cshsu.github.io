@@ -508,7 +508,7 @@
 
   .nav__title {
     color: #fff;
-    font-size: $type-size-6;
+    font-size: 1rem /*$type-size-6*/;
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
@@ -535,8 +535,9 @@
     display: block;
     padding: 0.25rem 0.75rem;
     color: $muted-text-color;
+		font-size: 0.8rem;
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 2;
     border-bottom: 1px solid $border-color;
 
     &:hover {

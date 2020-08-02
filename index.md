@@ -1,35 +1,41 @@
 ---
-title: "Welcome to my website"
+title: "Emerging Electronic Devices"
 permalink: /
 layout: single
-classes: wide
 author_profile: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/bryce.jpg
   caption: "Bryce Canyon National Park"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small>Last updated: May 2, 2020 </small>
-feature_row1:
-  - image_path: /assets/images/unsplash-image-1.jpg
+  *To CMOS and Beyond*<br />
+research:
+  - image_path: /assets/images/research.png
     alt: "placeholder image 1"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
+    title: "Research"
+    excerpt: 'My research interests include.'
+    url: "/research/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+writing:
+  - image_path: /assets/images/writing.jpeg
+    alt: "placeholder image 2"
+    title: "Casual writing"
+    excerpt: "When I'm not working, I jot down my random thoughts occasionally."
+    url: "/casual-writing/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+photos:
+  - image_path: /assets/images/writing.jpeg
+    alt: "placeholder image 3"
+    title: "Photos"
+    excerpt: "I also enjoy traveling around and taking pictures."
+    url: "/albums/"
+    btn_label: "Learn More"
     btn_class: "btn--primary"
 ---
-
-Welcome to my GitHub Pages site.
-
-{% include feature_row id="feature_row1" type="left"%}
-
-Lorem ipsum dolor sit amet, ius eu congue audiam quaeque, te cetero maiorum his. Eu cum commodo suscipit epicurei, nostrud meliore consectetuer eu sit, cu mutat epicuri has. Case movet doming qui ei, ne quas appareat sea. Quot solum summo per ex, at quis nibh debitis pro. No mel idque tibique disputando.
-
-Nobis putent vivendum ad eos, te his audire percipit postulant, alii putant dissentias et sit. No ius amet utroque detraxit, sed ea veritus deserunt delicata. Eum zril aliquam ea, id sit voluptua antiopam, nam accusata splendide id. No mei habemus delicata dissentiunt, omnes incorrupte eu mei. Choro soleat omittam pro cu. Offendit deserunt voluptatibus ius an. Ea mundi graece delicatissimi eam.
-
-
+<p style="text-align: justify">I'm currently pursuing my PhD degree in electrical and computer engineering under Professor Azad Naeemi at the Georgia Institute of Technology, GA, USA. I obtained an undergraduate degree in electrical engineering from National Tsing Hua University, Hsinchu, Taiwan. In 2014, I started my PhD program at Georgia Tech with the technical interest in nanodevice physical mechanisms and design simulation. My current research focuses on the potential applications of ferroelectric (FE) materials in electronic devices in the nanoscale regime. The expected time for me to graduate is the spring semester in 2021. By then, I hope to have strong background knowledge and research implementation skills in ferroelectric materials from physical mechanisms to circuit-level analyses. I'm particularly interested in semiconductor-related engineer positions in an industrial company after graduation. </p>
+<p style="text-align: justify">On this website, my cirriculum vitae and research can be found in the <a href="/resume/"><i>Cirriculum Vitae</i></a> tab and the <a href="/research/"><i>Research</i></a> tab, respectively. I would also like to try keeping technical notes in the <a href="/notes/preface/"><i>Notes</i></a> tab. If you're tired of work, some life-related stuff can be found in the other tabs.</p>
 
 ## Note
 
