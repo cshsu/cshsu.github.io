@@ -15,7 +15,7 @@ last_modified_at: 2020-08-02T11:00:36-04:00
 |
 <i class="fab fa-github"></i> <a href="http://github.com/cshsu">cshsu</a>
 </div>
-[PDF version](https://drive.google.com/file/d/16OHK6ua9fyZjcYIjttBjJZGXpiuU-RFu/view?usp=sharing)
+[PDF version](https://drive.google.com/file/d/1NWyhZZOdptivHQ6Bw9J0URYGnQmslPVJ/view?usp=sharing)
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
@@ -157,6 +157,7 @@ Dept. of Physics, National Tsing Hua University, Hsinchu, Taiwan. Instructor: Pr
 **Tasks:** Assisted freshmen in General Physics; answered their questions during office hours and graded midterms and finals 
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
 ## <span style="color:#bc412b;">Publications</span>
 
 <div style="text-align:left;">
