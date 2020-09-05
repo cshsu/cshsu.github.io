@@ -5,7 +5,7 @@ permalink: /resume/
 toc: true
 toc_label: "&nbsp Résumé"
 toc_sticky: true
-last_modified_at: 2020-08-02T11:00:36-04:00
+last_modified_at: 2020-09-05T11:48:09-04:00
 ---
 
 <div id="webaddress">
@@ -15,7 +15,7 @@ last_modified_at: 2020-08-02T11:00:36-04:00
 |
 <i class="fab fa-github"></i> <a href="http://github.com/cshsu">cshsu</a>
 </div>
-[PDF version](https://drive.google.com/file/d/1NWyhZZOdptivHQ6Bw9J0URYGnQmslPVJ/view?usp=sharing)
+[PDF version](https://drive.google.com/file/d/1dcWtJzVeaUSNAOhjHD0xF40eZjEtc2H4/view?usp=sharing)
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
@@ -123,9 +123,8 @@ Dept. of Electrical and Computer Engineering, Georgia Institute of Technology, A
           <i>2013.03–2014.07</i>
         </span>
 </div>
+
 Institute of Physics, Academia Sinica, Taipei, Taiwan. Mentor: Dr. Tien-Ming Chuang.
-
-
 **Technical Skills:** Image processing, MATLAB, LabVIEW, SolidWorks, machining, soft soldering <br>**Project:** *Design and Setup of a Homemade Scanning Tunneling Microscope (STM) System with Ultra-high Vacuum and Ultra-low Temperature* 
 
 * Implemented image processing techniques on topography analysis
