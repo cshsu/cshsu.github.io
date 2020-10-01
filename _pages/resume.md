@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "<br>Curriculum Vitae"
+title: "<br>Curriculum Vitae for device engineer full-time positions"
 permalink: /resume/
 toc: true
 toc_label: "&nbsp Résumé"
 toc_sticky: true
-last_modified_at: 2020-09-05T11:48:09-04:00
+last_modified_at: 2020-10-01T10:11:00-04:00
 ---
 
 <div id="webaddress">
@@ -15,7 +15,7 @@ last_modified_at: 2020-09-05T11:48:09-04:00
 |
 <i class="fab fa-github"></i> <a href="http://github.com/cshsu">cshsu</a>
 </div>
-[PDF version](https://drive.google.com/file/d/1dcWtJzVeaUSNAOhjHD0xF40eZjEtc2H4/view?usp=sharing)
+[PDF version](https://drive.google.com/file/d/1uzoWJRVh1aEyBSBZm883wKJ3YbEM-2y9/view?usp=sharing)
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
@@ -31,9 +31,10 @@ last_modified_at: 2020-09-05T11:48:09-04:00
 <div style="text-align:left;">
   <b>Ph.D. in Electrical and Computer Engineering</b>
     <span style="float:right;">
-      <i>2014–2021 (expected in May)</i>
+      <i>2014–2021 (expected in summer)</i>
     </span>
 </div>
+
 
 *Georgia Institute of Technology*, Atlanta, GA, USA (GPA: 3.75/4.00)
 
