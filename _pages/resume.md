@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "<br>Curriculum Vitae for device engineer full-time positions"
+title: "<br>Curriculum vitae for device engineer full-time positions"
 permalink: /resume/
 toc: true
 toc_label: "&nbsp Résumé"
