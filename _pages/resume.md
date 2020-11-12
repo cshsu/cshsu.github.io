@@ -22,7 +22,7 @@ last_modified_at: 2020-10-01T10:11:00-04:00
 ## <span style="color:#bc412b;">Technical Interest Areas</span>
 
 
-* Beyond-CMOS electronic device modeling with ferroelectric materials for the applications in emerging non-volatile memories and low-power logic gates
+* Beyond-CMOS electronic device modeling with ferroelectric materials for the applications in emerging non-volatile memories and low-power logic devices
 * Device modeling and circuit analysis with SPICE
 * Device physics and numerical simulations 
 
@@ -34,8 +34,6 @@ last_modified_at: 2020-10-01T10:11:00-04:00
       <i>2014–2021 (expected in summer)</i>
     </span>
 </div>
-
-
 *Georgia Institute of Technology*, Atlanta, GA, USA (GPA: 3.75/4.00)
 
 <div style="text-align:left;">
@@ -44,7 +42,6 @@ last_modified_at: 2020-10-01T10:11:00-04:00
       <i>2007–2011</i>
     </span>
 </div>
-
 *National Tsing Hua University (NTHU)*, Hsinchu, Taiwan (GPA: 3.91/4.00, class rank: 4/56)
 
 ## <span style="color:#bc412b;">Work Experience and Technical Skills</span>
