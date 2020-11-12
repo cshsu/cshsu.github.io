@@ -8,7 +8,7 @@ toc_icon: ""
 share: true
 ncfets:
   - image_path: /assets/images/research/ncfets.png
-last_modified_at: 2020-06-07T11:44:29-04:00
+last_modified_at: 2020-11-12T15:08:49-05:00
 ---
 
 
@@ -40,9 +40,18 @@ last_modified_at: 2020-06-07T11:44:29-04:00
 Magnetoelectric multiferroic materials have the ability to control magnetization switching with an applied electric field through the coupling between magnetic and ferroelectric orders. Among such multiferroic materials, BiFeO<sub>3</sub> (BFO) exhibits thermodynamically stable magnetoelectric effects at room-temperature, and thus shows the potential for the realization of nano-scale magetoelectronics with low-power consumption. 
 {: .text-justify}
 
-Experiments have found that in BFO thin films with as-grown 71° stripe domain patterns, most of the electric polarization switching under an out-of-plane voltage follows a two-step path: in-plane 71° switching followed by an out-of-plane 109° switching for each domain stripe [1]. Such a 180° switching path enables deterministic control of magnetization when BFO is coupled with a ferromagnetic material via the magnetoelectric effect. The mechanism for the polarization switching behavior may be attributed to rhombohedral crystal strutures and the elastic constraints on the thermodynamically stable polarization directions.
+Experiments have found that in BFO thin films with as-grown 71° stripe domain patterns, most of the electric polarization switching under an out-of-plane voltage follows a two-step path: in-plane 71° switching followed by an out-of-plane 109° switching for each domain stripe [1]. Such a 180° switching path enables deterministic control of magnetization when BFO is coupled with a ferromagnetic material via the magnetoelectric (ME) effect. The mechanism for the polarization switching behavior may be attributed to rhombohedral crystal strutures and the elastic constraints on the thermodynamically stable polarization directions.
+{: .text-justify}
+
+With the OOMMF micromagnetic simulations combined with the circuit-compatible SPICE model of BFO [2], the underlying physics of the ME effect and antiferromagetism-ferromagnetism coupling in the BFO/CoFe heterojunction has been studied, where CoFe is a ferromagnetic material [3]. A further application of the magnetoelectric effect was proposed as the magnetoelectric spin–orbit (MESO) logic devices [4].
 {: .text-justify}
 
 <b>Related publications:</b> <br>
-[1] Heron, J. T. et al., "Deterministic switching of ferromagnetism at room temperature using an electric field," Nature 516, 370–373 (2014).
+[1] Heron, J. T. et al., "Deterministic switching of ferromagnetism at room temperature using an electric field," Nature 516, 370–373 (2014). <br>
+
+[2] M.J. Donahue and D.G. Porter. OOMMF User’s Guide, Version 1.0 Interagency Report NISTIR 6376, National Institute of Standards and Technology, Gaithersburg, MD (Sept 1999). <br>
+
+[3] Yu-Ching Liao, Dmitri E. Nikonov, Sourav Dutta, Sou-Chi Chang, **<u>Chia-Sheng Hsu</u>**, Ian A. Young, and Azad Naeemi, "Understanding the Switching Mechanisms of the Antiferromagnet/Ferromagnet Heterojunction," Nano Letters **2020** *20* (11), 7919-7926. <br>
+
+[4] Manipatruni, S., Nikonov, D.E., Lin, C. *et al.* Scalable energy-efficient magnetoelectric spin–orbit logic. *Nature* **565,** 35–42 (2019).
 
