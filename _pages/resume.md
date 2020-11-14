@@ -5,7 +5,7 @@ permalink: /resume/
 toc: true
 toc_label: "&nbsp Résumé"
 toc_sticky: true
-last_modified_at: 2020-10-01T10:11:00-04:00
+last_modified_at: 2020-11-14T10:48:12-05:00
 ---
 
 <div id="webaddress">
@@ -64,6 +64,7 @@ Dept. of Electrical and Computer Engineering, Georgia Institute of Technology, A
 * I developed a physics-based compact model of voltage-controlled polarization switching in a multiferroic BiFeO<sub>3</sub> through the collaboration with Intel Corporation.
 * I implemented the 3D phase field framework in a circuit-compatible manner, which successfully described experimentally measured transient responses of a ferroelectric capacitor with HSPICE simulations. This work was published in IEEE Transactions on Electron Devices (see Publications Section).
 * I incorporated the single-domain HSPICE model of BiFeO<sub>3</sub> capacitors into Cadence Virtuoso as a symbol instance for further VLSI simulations.
+* I developed a physics-based compact model of voltage-controlled polarization switching in multiferroic BiFeO<sub>3</sub> through the collaboration with Intel Corporation. The model is being used to analyze the potential of magnetoelectric devices to achieve low-power spintronic operations (see Publications Section).
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray;">
 
@@ -158,9 +159,11 @@ Dept. of Physics, National Tsing Hua University, Hsinchu, Taiwan. Instructor: Pr
 ## <span style="color:#bc412b;">Publications</span>
 
 <div style="text-align:left;">
-     [1] <b>Performance Analysis and Enhancement of Negative Capacitance Logic Devices Based on Internally Resistive Ferroelectrics,</b> <i>C.-S. Hsu, C. Pan, A. Naeemi, IEEE Electron Device Letters 39 (5), 765-768, 2018. (Editors' Pick)</i> <br>
-  [2] <b>A Theoretical Study of Multidomain Ferroelectric Switching Dynamics With a Physics-Based SPICE Circuit Model for Phase-Field Simulations,</b> <i>C. Hsu, S. Chang, D. E. Nikonov, I. A. Young and A. Naeemi, IEEE Transactions on Electron Devices, vol. 67, no. 7, pp. 2952-2959, 2020.</i>
+  [1] <b>Performance Analysis and Enhancement of Negative Capacitance Logic Devices Based on Internally Resistive Ferroelectrics,</b> <i><b><u>C.-S. Hsu</u></b>, C. Pan, A. Naeemi, IEEE Electron Device Letters 39 (5), 765-768, 2018. (Editors' Pick)</i> <br>
+  [2] <b>A Theoretical Study of Multidomain Ferroelectric Switching Dynamics With a Physics-Based SPICE Circuit Model for Phase-Field Simulations,</b> <i><b><u>C.-S. Hsu</u></b>, S. Chang, D. E. Nikonov, I. A. Young and A. Naeemi, IEEE Transactions on Electron Devices, vol. 67, no. 7, pp. 2952-2959, 2020.</i> <br>
+  [3] <b>Understanding the Switching Mechanisms of the Antiferromagnet/Ferromagnet Heterojunction,</b> <i>Yu-Ching Liao, Dmitri E. Nikonov, Sourav Dutta, Sou-Chi Chang, <b><u>C.-S. Hsu</u></b>, Ian A. Young, and Azad Naeemi, Nano Letters 2020 20 (11), 7919-7926. </i>
 </div>
+
 ## <span style="color:#bc412b;">Honors and Awards</span>
 
 <div style="text-align:left;">
