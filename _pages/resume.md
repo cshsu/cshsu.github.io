@@ -61,7 +61,6 @@ Dept. of Electrical and Computer Engineering, Georgia Institute of Technology, A
 
 * With HSPICE and Verilog-A, I implemented a physics-based circuit model of negative capacitance field effect transistors and performed device and circuit analyses with the SPICE simulator (see Publications Section). 
 * I developed a three-dimensional phase field framework, which successfully described experimentally mea- sured hysteresis and transient responses of a ferroelectric capacitor. This work was presented at 2019 TECHCON, Austin, TX.
-* I developed a physics-based compact model of voltage-controlled polarization switching in a multiferroic BiFeO<sub>3</sub> through the collaboration with Intel Corporation.
 * I implemented the 3D phase field framework in a circuit-compatible manner, which successfully described experimentally measured transient responses of a ferroelectric capacitor with HSPICE simulations. This work was published in IEEE Transactions on Electron Devices (see Publications Section).
 * I incorporated the single-domain HSPICE model of BiFeO<sub>3</sub> capacitors into Cadence Virtuoso as a symbol instance for further VLSI simulations.
 * I developed a physics-based compact model of voltage-controlled polarization switching in multiferroic BiFeO<sub>3</sub> through the collaboration with Intel Corporation. The model is being used to analyze the potential of magnetoelectric devices to achieve low-power spintronic operations (see Publications Section).
