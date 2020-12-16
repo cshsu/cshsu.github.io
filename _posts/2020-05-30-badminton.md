@@ -1,5 +1,5 @@
 ---
-title:  "Badminton Notes"
+title: "Badminton Notes"
 permalink: /notes/badminton/
 last_modified_at: 2020-05-30T10:57:00-04:00
 ---
