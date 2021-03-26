@@ -16,4 +16,4 @@ read_time: false
 
 ### Blogger
 
- [生活隨筆](https://chiasheng-hsu.blogspot.com/)
+ [生活隨筆](https://chia-sheng.blogspot.com/)
