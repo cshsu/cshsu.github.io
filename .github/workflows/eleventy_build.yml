@@ -27,11 +27,12 @@ jobs:
     - name: Run npm build
       run: npm run build
 
+    - name: Add Path
+      run: echo "{:/usr/local/mytool}" >> $GITHUB_PATH
+    
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         publish_dir: ./_site
     
-    - name: Add Path
-      run: echo "{:/usr/local/mytool}" >> $GITHUB_PATH
