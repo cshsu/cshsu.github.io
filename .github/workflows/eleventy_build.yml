@@ -34,4 +34,4 @@ jobs:
         publish_dir: ./_site
     
     - name: Add Path
-       run echo "{:/usr/local/mytool}" >> $GITHUB_PATH
+      run: echo "{:/usr/local/mytool}" >> $GITHUB_PATH
