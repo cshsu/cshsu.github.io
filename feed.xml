@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Chia-Sheng</title>
+  <subtitle>I am a </subtitle>
+  <link href="https://cshsu.github.io/feed.xml" rel="self"/>
+  <link href="https://cshsu.github.io/"/>
+  <updated>2023-06-22T00:00:00Z</updated>
+  <id>https://cshsu.github.io/</id>
+  <author>
+    <name>Chia-Sheng Hsu</name>
+    <email></email>
+  </author>
+  
+  <entry>
+    <title type="html">A dummy note</title>
+    <link href="https://cshsu.github.io/notes/2023/dummy-notes/dummy/"/>
+    <updated>2023-06-22T00:00:00Z</updated>
+    <id>https://cshsu.github.io/notes/2023/dummy-notes/dummy/</id>
+    <content type="html">&lt;p&gt;Every once in a while I surprise myself with a solution so simple I kick myself for not seeing it sooner. Today was one of those days.&lt;/p&gt;
+&lt;p&gt;About a year ago I delved into the world of web components. Web components are a great way to group functionality (including other components) in a modular and compartmentalized way. Web components have proven an effective and powerful tool but I have also found myself struggling to do basic things. One such problem is that web components must render a host element. Most of the time this is not a problem except when the HTML or CSS layout expects a particular structure.&lt;/p&gt;
+&lt;p&gt;For example, if I wanted to output a list of items in a grid using &lt;em&gt;CSS Grid or Flexbox&lt;/em&gt; the HTML might look something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;grid-items&amp;gt;
+  &amp;lt;grid-item&amp;gt;item&amp;lt;/grid-item&amp;gt;
+  &amp;lt;grid-item&amp;gt;item&amp;lt;/grid-item&amp;gt;
+  &amp;lt;grid-item&amp;gt;item&amp;lt;/grid-item&amp;gt;
+&amp;lt;/grid-items&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And our CSS like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;grid-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
+  gap: 1em;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That works! But what if I want to add another component inside &lt;code&gt;&amp;lt;grid-items&amp;gt;&lt;/code&gt; that contains another group of &lt;code&gt;&amp;lt;grid-item&amp;gt;&lt;/code&gt; with specific functionality?&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;grid-items&amp;gt;
+  &amp;lt;grid-item&amp;gt;item&amp;lt;/grid-item&amp;gt;
+  &amp;lt;grid-item&amp;gt;item&amp;lt;/grid-item&amp;gt;
+  &amp;lt;grid-item&amp;gt;item&amp;lt;/grid-item&amp;gt;
+  &amp;lt;grid-group&amp;gt;
+    #shadow-root (open)
+    &amp;lt;grid-item&amp;gt;item&amp;lt;/grid-item&amp;gt;
+    &amp;lt;grid-item&amp;gt;item&amp;lt;/grid-item&amp;gt;
+    &amp;lt;grid-item&amp;gt;item&amp;lt;/grid-item&amp;gt;
+  &amp;lt;/grid-item&amp;gt;
+&amp;lt;/grid-items&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is where we run into problems, not with the HTML but with the CSS. CSS Grid and Flexbox are powerful ways to control layout, mostly because we are able to orchestrate the layout of all the direct descendants. But when the items we want to affect are &lt;em&gt;not&lt;/em&gt; direct descendants, our layout breaks down. As I said before web components must render a parent element, so there seemed like no way around this.&lt;/p&gt;
+&lt;p&gt;As I thought about this problem again I said to myself ”I wish I didn’t have to render the host element. I wish I could &lt;em&gt;display the contents&lt;/em&gt;.”&lt;/p&gt;
+&lt;p&gt;Display contents... display contents... Why did this ring in my ears? Might there be a way to do this with the CSS &lt;code&gt;display&lt;/code&gt; property? Turns out there is and it&#39;s the keyword property &lt;code&gt;contents&lt;/code&gt;. &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/display#box&quot;&gt;From MDN&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;These elements don&#39;t produce a specific box by themselves. They are replaced by their pseudo-box and their child boxes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For this use case &lt;code&gt;display: contents&lt;/code&gt; was what I needed. The &lt;code&gt;&amp;lt;grid-group&amp;gt;&lt;/code&gt; element does not produce its own box so the layout and the items contained in the shadow-root act as direct descendants. In my implementation I utilized the &lt;code&gt;:not()&lt;/code&gt; pseudo-class to ensure any component that is not &lt;code&gt;&amp;lt;grid-item&amp;gt;&lt;/code&gt; does not produce a box.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;::slotted(:not(grid-item) {
+  display: contents;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I have found Web components to be a great way to manage complex design systems. They have often challenged me to rethink old habits—which is good. Be prepared for change if you wish to make web components part of your front-end toolset. A familiarity with &lt;code&gt;display: contents&lt;/code&gt; might help!&lt;/p&gt;
+</content>
+  </entry>
+</feed>
