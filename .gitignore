@@ -12,5 +12,4 @@ _data
 .obsidian
 .cache
 .nojekyll
-package-lock.json
 gh-pages.pub
