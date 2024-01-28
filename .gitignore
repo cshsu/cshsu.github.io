@@ -12,5 +12,4 @@ _data
 .DS_Store
 .obsidian
 .cache
-.nojekyll
 gh-pages.pub
