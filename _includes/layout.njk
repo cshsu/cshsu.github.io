@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>{{ metaTitle }}{% if metaTitle == blank %}{{ title }}{% endif %}{{ artworks.group }}{% if (title or artworks.group) == blank %}“{{ tag }}”{% endif %}</title>
+        <title>{{ metaTitle }}{% if metaTitle == blank %}{{ title }}{% endif %}{{ photos.group }}{% if (title or photos.group) == blank %}“{{ tag }}”{% endif %}</title>
         <meta name="description" content="{{ description | safe }}">
         <meta name="author" content="Josh Crain">
         <meta name="generator" content="Eleventy">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 xmlns:svgjs=%22http://svgjs.com/svgjs%22 width=%2250%22 height=%2250%22><svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2250%22 height=%2250%22 role=%22img%22 aria-labelledby=%22svgLogo%22 viewBox=%220 0 50 22%22><title id=%22SvgjsTitle1000%22>Josh Crain</title><circle cx=%2240%22 cy=%225%22 r=%225%22></circle><circle cx=%2240%22 cy=%2217%22 r=%225%22></circle><circle cx=%225%22 cy=%2217%22 r=%225%22></circle><path d=%22M33 0v22c-5.5 0-10-4.9-10-11S27.5 0 33 0zM22 11c0 6.1-4.5 11-10 11V0h10v11z%22></path></svg><style>@media(prefers-color-scheme:light){:root{filter:none;}}@media(prefers-color-scheme:dark){:root{filter:invert(100%);}}</style></svg>" type="image/svg+xml">
+        <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon">
         <link rel="manifest" href="/site.webmanifest">
         <meta name="theme-color" content="rgb(239, 233, 228)">
         {% set css %}{% include "styles.css" %}{% endset %}<style>{{ css | cssmin | safe }}</style>
@@ -17,10 +17,10 @@
             {
                 "@context": "http://schema.org",
                 "@type": "Person",
-                "name": "Josh Crain",
-                "givenName": "Joshua",
-                "familyName": "Crain",
-                "jobTitle": "Web Designer and Developer",
+                "name": "Chia-Sheng Hsu",
+                "givenName": "Chia-Sheng",
+                "familyName": "Hsu",
+                "jobTitle": "Engineer",
                 "worksFor": "AgencyBloc",
                 "additionalName": "Web Designer | Front-End Developer",
                 "knowsAbout": "Web Design, Product Design, Front-End Development, User-Centric Design, Web Standards",
@@ -33,8 +33,16 @@
         <header class="site_header">
             <div class="wrapper">
                 <div class="media">
-                    <div class="media_body"><ul class="list--horizontal list--m--larger">{% if category != "Ancestry" %}<li><a href="/" class="text_accent logo"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="24" role="img" aria-labelledby="svgLogo"><title id="svgLogo">Josh Crain</title><circle cx="40" cy="5" r="5"/><circle cx="40" cy="17" r="5"/><circle cx="5" cy="17" r="5"/><path d="M33 0v22c-5.5 0-10-4.9-10-11S27.5 0 33 0zM22 11c0 6.1-4.5 11-10 11V0h10v11z"/></svg><span class="visuallyhidden">Josh Crain’s Home</span></a></li>{% endif %}{% if category == "Ancestry" %}<li><a href="/ancestry/" class="text_accent">Crain Ancestry</a></li>{% endif %}</ul></div>
-                    <nav class="media_right" aria-label="nav-primary"><ul class="list--horizontal list--m--larger">{% if category != "Ancestry" %}<li><a href="/" {% if pageType == "home" %}data-state="active"{% endif %}>Home</a></li><li><a href="/notes/" {% if category == "Notes" %}data-state="active"{% endif %}>Notes</a></li><li><a href="/art/" {% if category == "Art" %}data-state="active"{% endif %}>Art</a></li><li><a href="/about/" {% if category == "About" %}data-state="active"{% endif %}>About</a></li>{% else %}<li><a href="/ancestry/ancestors/">Ancestors</a></li><li><a href="/ancestry/heraldry/">Heraldry</a></li><li><a href="/ancestry/sources/">Sources</a></li>{% endif %}</ul></nav>
+                    <div class="media_body"><ul class="list--horizontal list--m--larger"><li><a href="/" class="logo"><img src="/favicon.ico?v=2" alt="Logo" class="logo" width="50" height="50" title="Chia-Sheng">
+                    <span class="visuallyhidden">Chia-Sheng's Home</span></a></li>
+                    </ul></div>
+                    <nav class="media_right" aria-label="nav-primary"><ul class="list--horizontal list--m--larger">
+                    <li><a href="/" {% if pageType == "home" %}data-state="active"{% endif %}>Home</a></li>
+                    <li><a href="/about/" {% if category == "About" %}data-state="active"{% endif %}>About</a></li>
+                    <li><a href="/art/" {% if category == "Art" %}data-state="active"{% endif %}>Gallery</a></li>
+                    <li><a href="/notes/" {% if category == "Notes" %}data-state="active"{% endif %}>Notes</a></li>
+                    <li><a href="/contact/" {% if category == "Contact" %}data-state="active"{% endif %}>Contact</a></li>
+                    </ul></nav>
                 </div>
             </div>
         </header>
@@ -44,7 +52,7 @@
         {% else %}
             <div class="wrapper">
                 <header class="text_center">
-                    <h1>{{ title }}{{ artworks.group }}{% if tag %}<i>“{{ tag }}”</i>{% endif %}</h1> 
+                    <h1>{{ title }}{{ photos.group }}{% if tag %}<i>“{{ tag }}”</i>{% endif %}</h1> 
                     {% if date != blank %}<div class="small-caps"><time datetime="{{ date | date('YYYY-MM-DD HH:mm') }}">{{ date|date("D MMM Y") }}</time>&nbsp; ⁃ &nbsp;{{ category }}</div>{% endif %} 
                 </header>
                 {% if pageType == "section" %}
@@ -64,12 +72,12 @@
                         <div class="subgrid paging">
                             {% set previousNote = collections.notes | getPreviousCollectionItem(page) %}
                             {% set nextNote = collections.notes | getNextCollectionItem(page) %}
-                            {% set previousWeeknote = collections.weeknotes | getPreviousCollectionItem(page) %}
-                            {% set nextWeeknote = collections.weeknotes | getNextCollectionItem(page) %}
-                            {% set nextRun = collections.runlog | getPreviousCollectionItem(page) %}
-                            {% set previousRun = collections.runlog | getNextCollectionItem(page) %}
-                            {% set nextArt = collections.artworks | getPreviousCollectionItem(page) %}
-                            {% set previousArt = collections.artworks | getNextCollectionItem(page) %}
+                            {# {% set previousWeeknote = collections.weeknotes | getPreviousCollectionItem(page) %} #}
+                            {# {% set nextWeeknote = collections.weeknotes | getNextCollectionItem(page) %} #}
+                            {# {% set nextRun = collections.runlog | getPreviousCollectionItem(page) %} #}
+                            {# {% set previousRun = collections.runlog | getNextCollectionItem(page) %} #}
+                            {% set nextArt = collections.photos | getPreviousCollectionItem(page) %}
+                            {% set previousArt = collections.photos | getNextCollectionItem(page) %}
                             <div class="grid-half@l">
                                 {% if previousNote %}<div>
                                     <div class="text--smaller"><i>Previously</i></div>
@@ -136,7 +144,8 @@
         </main>
         <footer class="site_footer">
             <div class="wrapper">
-                <nav aria-label="nav-primary-footer"><ul class="list--horizontal"><li>&copy; <time datetime="2019-11-06 09:58">2019</time>-<time datetime="{{ date.now | date('YYYY-MM-DD HH:mm') }}">{{ date.now | date("YYYY") }}</time> ⁃ <span id="hcard-Josh-Crain" class="vcard"><a class="url fn" href="https://joshcrain.io">Josh Crain</a></span></li><li><a href="/say-hello/" class="text--small">Contact</a></li><li><a href="/running/" class="text--small">Running</a></li><li><a href="/about/site/colophon/" class="text--small">Colophon</a></li><li><a href="/feed.xml" class="text--small">RSS</a></li></ul></nav>
+                <nav aria-label="nav-primary-footer"><ul class="list--horizontal"><li>&copy; <time datetime="2024-01-21 17:08">2024</time>-<time datetime="{{ date.now | date('YYYY-MM-DD HH:mm') }}">{{ date.now | date("YYYY") }}</time> &emsp; <span id="hcard-Josh-Crain" class="vcard"><a class="url fn" href="https://github.com/cshsu">Chia-Sheng Hsu</a></span></li><li><a href="/say-hello/" class="text--small">Contact</a></li>
+                <li><a href="/about/site/README/" class="text--small">Site</a></li><li><a href="/feed.xml" class="text--small">RSS</a></li></ul></nav>
             </div>
         </footer>
         <nav class="view" aria-label="nav-view">

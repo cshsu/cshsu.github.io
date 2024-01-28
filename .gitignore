@@ -1,9 +1,15 @@
 # Local Netlify folder
 .netlify
+
+# Folders
 node_modules
+_site
+_data
+
 .vscode
 .DS_Store
 .obsidian
-_site
-package-lock.json
 .cache
+.nojekyll
+package-lock.json
+gh-pages.pub

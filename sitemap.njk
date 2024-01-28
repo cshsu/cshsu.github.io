@@ -6,7 +6,7 @@ permalink: /sitemap.xml
 {% for item in collections.all %}
 {% if item.data.ignore != true %}
   <url>
-    <loc>https://joshcrain.io{{ item.url }}</loc>
+    <loc>https://cshsu.github.io{{ item.url }}</loc>
     <lastmod>{{ item.date | date("YYYY-MM-DD") }}</lastmod>
     <changefreq>{{ item.data.changefreq }}{% if item.data.changefreq == blank %}monthly{% endif %}</changefreq>
     <priority>{{ item.data.priority }}{% if item.data.priority == blank %}0.5{% endif %}</priority>

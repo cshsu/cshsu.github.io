@@ -1,64 +1,45 @@
 ---
 layout: layout.njk
 pageType: home
-title: Josh Crain.
-metaTitle: Josh Crain
-description: Josh Crain has experience as a web designer, product designer, and front-end developer. Design allows Josh to make an impact through user advocacy, research, web standards, and code.
-changefreq: monthly
-priority: "1.0"
+title: Chia-Sheng Hsu
+metaTitle: To CMOS and Beyond
+description: Chia-Sheng is .
+changefreq: Mood-dependent
+version: "1.0"
 ---
 <div class="hero">
     <div class="wrapper fade-in">
         <div class="grid-layout_home">
             <div class="layout-section"> 
-                {% include "_svg/scandi-joshtimized.svg" %} 
+                {% include "_svg/profile-pic_svg.svg" %} 
             </div>
             <div class="grid-content">
                 <header>
-                    <h1><span class="intro">Hi, I’m</span> {{ title }}</h1> 
+                    <h2><span class="intro">Nanoelectronic Devices: To CMOS and Beyond</span></h2> 
                 </header>
-                <p class="text--larger">I design and build for the web. My work allows me to make an impact through user advocacy, web standards, research, and code. I <a href="/running/">run</a> and <a href="/art/">sketch</a> in my spare time. There are also <a href="/about/">other interesting things</a>.</p>
-                <p><i>You are welcome to <a href="/say-hello/">say hello</a> or ask a question.</i></p>
+                <p style="text-align: justify">I'm a device and test characterization engineer at onsemi based in Gresham, OR. I previously worked at Micron as a semiconductor design engineer in charge of DRAM test structure design for the state-of-the-art technology nodes. I obtained an undergraduate degree in electrical engineering from National Tsing Hua University, Hsinchu, Taiwan in 2011 and a PhD degree in electrical and computer engineering under Professor Azad Naeemi at the Georgia Institute of Technology, GA, USA in 2021. With the technical interest in fundamental physical mechanisms and design simulations of emerging nanoelectronic devices, my PhD research focuses on the potential applications of ferroelectric materials in electronic devices in the nanoscale regime. I also regularly serve as a reviewer for peer-reviewed journals like IEEE Electron Device Letters. Through invaluable PhD training, I have developed strong background knowledge in ferroelectric materials, research implementation skills from physical mechanisms to circuit-level analyses, and practical experience in academic/technical writing. I'm particularly interested in semiconductor-related engineer positions in an industrial company as my professional career path. </p>
+                <p style="text-align: justify">On this website, my cirriculum vitae and work experience can be found in the <a href="/about/"><i>Cirriculum Vitae</i></a> tab. I would also like to try keeping technical notes in the <a href="/notes/"><i>Notes</i></a> tab. If you're tired of work, I'd like to share some of my photos in the <a href="/art/"><i>Gallery</i></a> tab.</p>
+                <p><i>This personal GitHub Pages was inspired by the eleventy template created by <a href="https://joshcrain.io/" rel="noopener">Josh Crain</a>. You are welcome to <a href="/say-hello/">say hello or ask questions</a> .</i></p>
             </div>
         </div>
     </div>
 </div>
-<div class="wrapper">
-    <section class="grid-layout_home">
-        <div class="layout-section"> 
-            <h2>Notes</h2>
-            <span class="text--smaller">{{ collections.notes | length }} posts</span>
-        </div>
-        <div class="grid-content">
-            <div class="subgrid">
-                {% set items = collections.notes | reverse %}
-                {% for post in items.slice(0, 4) %}
-                <div class="grid-half@l">
-                    <div>
-                        <a href="{{ post.url }}" class="h2">{{ post.data.title }}</a>
-                        <p class="line-clamp"><span class="small-caps"><time datetime="{{ post.date | date('YYYY-MM-DD HH:mm') }}">{{ post.date | date("DD MMM YYYY") }}</time> ⁃ <span class="article--tags">{% for tag in post.data.tags.slice(0, 2) %}{% if tag != 'notes' %}<span> {{tag}}</span>{% endif %}{% endfor %}</span></span> <br/>
-                        {{ post.data.description }}</p>
-                    </div>
-                </div>
-                {% endfor %}
-                <div class="grid-full@l">
-                    <div>
-                        <p><i>See <a href="/notes/">all notes</a> or a list of semi-weekly <a href="/tags/weeknotes/">weeknotes</a>. The most recent is {% set items = collections.weeknotes | reverse %}{% for post in items.slice(0, 1) %}<a href="{{ post.url }}">{{ post.data.title }}</a>{% endfor %}.</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
+
 <div class="wrapper">
     <section class="grid-layout_home">
         <div class="layout-section">
-            <h2>Art</h2>
-            <span class="text--smaller">{{ collections.artworks | length }} items</span>
+            <h2>Photography</h2>
+            <span class="text--smaller">    
+                {% if  collections.photos.length == 1 %}
+                    {{ collections.photos | length }} portfolio
+                {% else %}
+                    {{ collections.photos | length }} portfolios
+                {% endif %}
+            </span>    
         </div>
         <div class="grid-content">
             <div class="subgrid">
-                {% for item in collections.artworks | reverse %} 
+                {% for item in collections.photos | reverse %} 
                 {% if item.data.featured %}
                 <div class="grid-third@l tile">
         
@@ -72,13 +53,51 @@ priority: "1.0"
             
             <div class="grid-full@l">
                 <div>
-                    <p><i>See <a href="/art/">all art</a>. The most recent is titled {% set items = collections.artworks | reverse %}{% for art in items.slice(0, 1) %}<a href="{{ art.url }}">{{ art.data.title }}</a>{% endfor %}.</i></p>
+                    <p><i>See <a href="/art/">all photos</a>. The most recent is titled {% set items = collections.photos | reverse %}{% for art in items.slice(0, 1) %}<a href="{{ art.url }}">{{ art.data.title }}</a>{% endfor %}.</i></p>
                 </div>
             </div>
             </div>
         </div>
     </section>
 </div>
+
+<div class="wrapper">
+    <section class="grid-layout_home">
+        <div class="layout-section"> 
+            <h2>Notes</h2>
+            <span class="text--smaller">
+                {% if  collections.notes.length == 1 %}
+                    {{ collections.photos | length }} post
+                {% else %}
+                    {{ collections.notes | length }} posts
+                {% endif %}
+            </span>
+        </div>
+        <div class="grid-content">
+            <div class="subgrid">
+                {% set items = collections.notes | reverse %}
+                {% for post in items.slice(0, 4) %}
+                <div class="grid-half@l">
+                    <div>
+                        <a href="{{ post.url }}" class="h2">{{ post.data.title }}</a>
+                        <p class="line-clamp"><span class="small-caps">
+                            <time datetime="{{ post.date | date('YYYY-MM-DD HH:mm') }}">{{ post.date | date("DD MMM YYYY") }}</time> &mdash; <span class="article--tags">
+                                {% for tag in post.data.tags.slice(0, 2) %}{% if tag != 'notes' %}<span> {{tag}}</span>{% endif %}{% endfor %}
+                            </span>
+                        </span> <br/> {{ post.data.description }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+                <div class="grid-full@l">
+                    <div>
+                        <p><i>See <a href="/notes/">all notes</a>. </i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!--
 <div class="wrapper">
     <section class="grid-layout_home">
         <div class="layout-section">
@@ -107,3 +126,4 @@ priority: "1.0"
         </div>
     </section>
 </div>
+-->

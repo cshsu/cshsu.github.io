@@ -1,19 +1,19 @@
 ---
 pageType: section
-title: Art
-metaTitle: Josh Crain's Art
-description: Art to share with you.
+title: Photos
+metaTitle: Photo Gallery
+description: Photos to share with you.
 ---
 
 <p class="lead">{{description}}</p>
 <div class="subgrid">
-    {% set items = collections.artworks | reverse %}
+    {% set items = collections.photos | reverse %}
     {% for item in items %} 
     <div class="grid-quarter@l tile">
         
     <a href="{{ item.url }}">{% gridImage item.data.image, item.data.alt %}</a>
         <div class="tile_inner item_detail">
-            <a href="{{ item.url }}" class="tile_link"><span class="tile_desc text--smaller">{{ item.data.title }}. {{ item.data.year }}. {{ item.data.medium }}.</span></a>
+            <a href="{{ item.url }}" class="tile_link"><span class="tile_desc text--smaller">{{ item.data.title }}&nbsp; {{ item.data.year }}; {{ item.data.medium }}.</span></a>
         </div>
     </div>
     {% endfor %}

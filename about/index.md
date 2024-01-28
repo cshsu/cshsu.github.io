@@ -1,56 +1,182 @@
 ---
-title: A little about Josh Crain
-metaTitle: About Josh Crain
+title: "My Résumé"
+metaTitle: About Chia-Sheng
 tags: about
-description: Josh Crain; his work, history, and personal records. 
+description: Chia-Sheng's work experiences.
 ---
-<p class="lead">Josh Crain is a designer, developer, and student of art.</p>
 
-I have worked as a web designer, product designer, and front-end developer. I want to improve at what I do. I created this site to practice and learn&mdash;practice the fundamentals of web design and learn more web development. I also wanted to share my work. Over time I plan to add more design, illustration, and art to this site. 
+<div id="webaddress">
+<i class="far fa-envelope"></i> <a href="mailto:chiasheng@gapp.nthu.edu.tw">chiasheng@gapp.nthu.edu.tw</a>
+|
+<i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/chiasheng/">LinkedIn</a>
+|
+<i class="fab fa-github"></i> <a href="http://github.com/cshsu">GitHub Pages</a>
+</div>
 
-## Family History
-<figure style="float:right;margin:0 0 1em 1em;width:auto;max-width:100px;width:25%;"> {% storyImage "https://joshcrain.github.io/ancestry/images/crane-coat-of-arms.png" "Crane of Suffolk, England Coat Of Arms. Argent, a fesse between three crosses crosslet fitchée Guls, crest a crane ppr." %}
-</figure>
+Please refer to the [PDF version](https://drive.google.com/file/d/1uzoWJRVh1aEyBSBZm883wKJ3YbEM-2y9/view?usp=sharing) for more details.
 
-I created a website of <a href="/ancestry/">Crain family ancestry</a> as a way to explore my interest in heritage and progeny, and as place to catalog my findings. I learned some interesting things about <em>heraldry</em>&mdash;something I knew nothing about. You are most welcome to <a href="/say-hello/">contact me</a> with any interest.
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-## Personal Records
-<table class="table_rwd">
-    <thead>
-    <tr>
-        <th>Event</th>
-        <th>PR</th>
-        <th>Meet</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td data-tblColumn="Event">8000m (cross-country)</td>
-        <td data-tblColumn="PR">24:39</td>
-        <td data-tblColumn="Meet">MVC Cross-Country Championships</td>
-    </tr>
-    <tr>
-        <td data-tblColumn="Event">3000m (indoor)</td>
-        <td data-tblColumn="PR">8:18.01</td>
-        <td data-tblColumn="Meet">Iowa State University Classic</td>
-    </tr>
-    <tr>
-        <td data-tblColumn="Event">5000m (indoor)</td>
-        <td data-tblColumn="PR">14:26.26</td>
-        <td data-tblColumn="Meet">MVC Indoor Championships</td>
-    </tr>
-    <tr>
-        <td data-tblColumn="Event">5000m (outdoor)</td>
-        <td data-tblColumn="PR">14:21.11</td>
-        <td data-tblColumn="Meet">Stanford Invitational</td>
-    </tr>
-    <tr>
-        <td data-tblColumn="Event">Bowling</td>
-        <td data-tblColumn="PR"><a href="https://twitter.com/thejoshcrain/status/3592903958">221</a></td>
-        <td data-tblColumn="Meet">Strike It Up Challenge</td>
-    </tr>
-    </tbody>
-</table>
+## <span style="color:#bc412b;">Technical Skills</span>
 
-## Keytarist
-Many summers ago I played the <a href="/notes/2020/yamaha-shs-10/">keytar</a> in <em>Dr. Mike</em>, one the the greatest bands of all time. You should buy our album, <em>A Mighty Love</em>, on <a href="https://www.amazon.com/Mighty-Love-Dr-Mike/dp/B000FSMMNK/" rel="noopener">Amazon</a> or <a href="https://music.apple.com/us/album/a-mighty-love/97175026" rel="noopener">iTunes</a>. You'll thank me. 
+**Expertise:** Memory devices and array layout design, post-silicon device characterization, data analysis automation, failure analysis, non-volatile memory (NVM), CMOS transistors, device physics, device-circuit co-optimization, physics-based device modeling, numerical and SPICE simulations, emerging devices, ferroelectric materials, phase change memory, academic writing, pre-silicon physical verification, digital/analog circuit fundamentals <br>
+**Scripting/Programming:** MATLAB, Python, Synopsys HSPICE, Cadence Spectre, Verilog-A <br>
+**Software:** Cadence Virtuoso (Schematic Editor and Layout Suite), Linux shell commands, LabVIEW, Git version control, SolidWorks, LaTeX, agile project management tool (Jira), Siemens Calibre <br>
+**Hardware:** ATE (Automatic Test Equipment), DMM (digital multimeter), oscilloscope, function generator, spectrum analyzer, microscope, machining, lab soldering, GPIB/IEEE-488 <br>
+**Languages:** Mandarin Chinese (Native proficiency), English (Academic working proficiency)
+
+## <span style="color:#bc412b;">Education</span>
+<div style="text-align:left;">
+  <b>Ph.D. in Electrical and Computer Engineering</b>
+    <span style="float:right;">
+      <i>2014–2021</i>
+    </span>
+</div>
+
+*Georgia Institute of Technology*, Atlanta, GA, USA
++ Advisor: Prof. Azad Naeemi
++ Thesis: *An Exploration of Potential Pathways Toward Emerging Electronic Devices with Ferroelectric Materials*
++ GPA: 3.75/4.00
+
+<div style="text-align:left;">
+  <b>B.S. in Electrical Engineering</b>
+    <span style="float:right;">
+      <i>2007–2011</i>
+    </span>
+</div>
+
+*National Tsing Hua University (NTHU)*, Hsinchu, Taiwan
++ GPA: 3.91/4.00, class rank: 4/56
+
+## <span style="color:#bc412b;">Work Experience</span>
+
+[//]: # "Position begins"
+
+<div style="text-align:left; font-size: 1em;">
+  <b><i>Semiconductor Design Engineer</i></b>
+    <span style="float:right;">
+      <i>2022.09–2023.03</i>
+    </span>
+</div>
+
+Micron Technology, Inc., Boise, ID, USA.
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray;">
+
+[//]: # "Position ends"
+
+<div style="text-align:left; font-size: 1em;">
+  <b><i>Device Research Engineer</i></b>
+    <span style="float:right;">
+      <i>2021.05–2022.08</i>
+    </span>
+</div>
+
+Macronix America, Inc., Yorktown Heights, NY, USA.
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray;">
+
+<div style="text-align:left; font-size: 1em;">
+  <b><i>Graduate Research Assistant</i></b>
+    <span style="float:right;">
+      <i>2016.06–2021.05</i>
+    </span>
+</div>
+
+Dept. of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, Georgia, USA.<br> Advisor: Prof. Azad Naeemi
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray;">
+
+<div style="text-align:left;">
+  <b><i>Research & Development Intern</i></b>
+      <span style="float:right;">
+        <i>2017.07–2017.08</i>
+      </span>
+</div>
+SPICE Department, Taiwan Semiconductor Manufacturing Company, Limited (TSMC), Hsinchu, Taiwan.
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray;">
+
+<div style="text-align:left;">
+  <b><i>Graduate Research Assistant</i></b>
+        <span style="float:right;">
+          <i>2016.02–2016.05</i>
+        </span>
+</div>
+Dept. of Biomedical Engineering, Georgia Institute of Technology, Atlanta, Georgia, USA.<br>
+Mentor: Prof. Peng Qiu
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<div style="text-align:left;">
+  <b><i>Teaching Assistant</i></b>
+        <span style="float:right;">
+          <i>2014.08–2016.02</i>
+        </span>
+</div>
+Dept. of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, Georgia, USA.<br> Instructors: Dr. Allen Robinson and Dr. Thomas Brewer
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<div style="text-align:left;">
+  <b><i>Research Assistant</i></b>
+        <span style="float:right;">
+          <i>2013.03–2014.07</i>
+        </span>
+</div>
+Institute of Physics, Academia Sinica, Taipei, Taiwan.<br>
+Mentor: Dr. Tien-Ming Chuang
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<div style="text-align:left;">
+  <b><i>Substitute Military Service</i></b>
+        <span style="float:right;">
+          <i>2012.04–2013.03</i>
+        </span>
+</div>
+Dasyueshan National Forest Recreation Area, Taichung, Taiwan. 
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<div style="text-align:left;">
+  <b><i>Teaching Assistant</i></b>
+        <span style="float:right;">
+          <i>2011.09–2012.02</i>
+        </span>
+</div>
+Dept. of Physics, National Tsing Hua University, Hsinchu, Taiwan.<br>
+Instructor: Prof. Jeng-Chung Chen
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+## <span style="color:#bc412b;">Publications</span>
+[Google Scholar](https://scholar.google.com/citations?user=Oz2aBZUAAAAJ&hl=en)
+
+## <span style="color:#bc412b;">Honors and Awards</span>
+
+<div style="text-align:left;">
+  <b>The Award for Excellent Juniors in College of EECS,</b> <i>NTHU.</i>
+        <span style="float:right;">
+          <i>2010</i>
+        </span>
+</div>
+* Given to top 10 third-year students (out of 115 students in EE) in both dept. of EE and CS 
+
+<div style="text-align:left;">
+  <b>Dean’s List Award,</b> <i>NTHU.</i>
+        <span style="float:right;">
+          <i>2008</i>
+        </span>
+</div>
+
+<div style="text-align:left;">
+  <b>Academic Achievement Award,</b> <i>NTHU.</i>
+        <span style="float:right;">
+          <i>2008</i>
+        </span>
+</div>
+* Given to top 2% students in the department, based on excellent academic achievements 
+
+## <span style="color:#bc412b;">Hobbies</span>
+
+badminton, photography, workout, handwriting, travel, mug and postcard collection

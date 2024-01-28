@@ -1,6 +1,0 @@
-{
-    "layout": "layout.njk",
-    "category": "Ancestry",
-    "changefreq": "monthly",
-    "priority": "0.7"
-}
