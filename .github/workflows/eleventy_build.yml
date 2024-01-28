@@ -18,6 +18,9 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: Add Path
+      run: echo "{:/usr/local/mytool}" >> $GITHUB_PATH
+
     - name: Setup Node.js environment
       uses: actions/setup-node@v1.4.1
 
@@ -27,9 +30,6 @@ jobs:
     - name: Run npm build
       run: npm run build
 
-    - name: Add Path
-      run: echo "{:/usr/local/mytool}" >> $GITHUB_PATH
-    
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
