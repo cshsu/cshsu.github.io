@@ -2,7 +2,10 @@ name: Eleventy Build
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 # Allows you to run this workflow manually from the Actions tab
 # workflow_dispatch:
@@ -23,7 +26,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@master
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
@@ -36,7 +40,7 @@ jobs:
       - name: Run npm build
         run: npm run-script build
 
-      - name: upload static site content
+      - name: Upload static site content
         uses: actions/upload-pages-artifact@v2
         with:
           path: _site
