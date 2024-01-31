@@ -4,7 +4,8 @@ name: Eleventy Build
 # events but only for the master branch
 on:
   push:
-    branches: ['master']
+    branches:
+      - master
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
