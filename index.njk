@@ -11,7 +11,14 @@ version: "1.0"
     <div class="wrapper fade-in">
         <div class="grid-layout_home">
             <div class="layout-section"> 
-                {% include "_svg/profile-pic_svg.svg" %} 
+                {% include "_svg/profile-pic_svg.svg" %}
+                <br/><br/><br/>
+                <head> <script src="https://kit.fontawesome.com/662a0b53d5.js" crossorigin="anonymous"></script> </head>
+                <i class="fa-solid fa-location-dot"></i> &nbsp; Gresham, OR
+                <br/>
+                <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/chiasheng/">chiasheng</a>
+                <br/>
+                <i class="fab fa-github"></i> <a href="http://github.com/cshsu">cshsu</a>
             </div>
             <div class="grid-content">
                 <header>
@@ -81,7 +88,7 @@ version: "1.0"
                     <div>
                         <a href="{{ post.url }}" class="h2">{{ post.data.title }}</a>
                         <p class="line-clamp"><span class="small-caps">
-                            <time datetime="{{ post.date | date('YYYY-MM-DD HH:mm') }}">{{ post.date | date("DD MMM YYYY") }}</time> &mdash; <span class="article--tags">
+                            <time datetime="{{ post.date | date('YYYY-MM-DD HH:mm') }}">{{ post.date | date("MMM DD, YYYY") }}</time> &mdash; <span class="article--tags">
                                 {% for tag in post.data.tags.slice(0, 2) %}{% if tag != 'notes' %}<span> {{tag}}</span>{% endif %}{% endfor %}
                             </span>
                         </span> <br/> {{ post.data.description }}</p>

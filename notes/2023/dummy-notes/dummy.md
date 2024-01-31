@@ -1,9 +1,10 @@
 ---
+pageType: section
 title: A dummy note
 metaTitle: 
 tags:
   - notes
-  - tag 2
+  - note category
 description: "The CSS property display: contents; can help layout CSS grids using web components."
 date: 2023-06-22
 ---
