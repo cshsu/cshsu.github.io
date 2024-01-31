@@ -5,7 +5,7 @@ name: Eleventy Build
 on: [push]
 
 # Allows you to run this workflow manually from the Actions tab
-workflow_dispatch:
+# workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
