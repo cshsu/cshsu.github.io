@@ -122,7 +122,7 @@ pre {max-width: 100%;overflow-x: auto;display: block;}
   .text--smallest {font-size:.875rem;}
   .text--smaller {font-size:var(--size-3);}
   .text--larger {font-size:var(--size-6);}
-  .text--secondary {text-transform: uppercase;}
+  .text--secondary {text-transform: uppercase;letter-spacing:.05em;font-size:.8em;}
   .visuallyhidden { position: absolute; overflow: hidden; clip: rect(0 0 0 0); height: 1px; width: 1px; margin: -1px; padding: 0; border: 0; }
   .line-clamp {
     display: -webkit-box;
@@ -303,7 +303,6 @@ pre {max-width: 100%;overflow-x: auto;display: block;}
       transform: translateY(0);
       opacity: 1;
     }
-
 
 
   .article--tags {margin-top:var(--size-11);}

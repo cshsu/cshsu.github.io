@@ -1,6 +1,6 @@
 # [My GitHub Pages](https://cshsu.github.io)
 
-Hi, welcome to my GitHub Pages. The site style is adapted from the awesome and versatile [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/). Please see `CHANGELOG.md` for details.
+Hi, welcome to my GitHub Pages. This site is undergoing a transition from Jekyll to Eleventy. The current site style is adapted from [Josh Crain's Eleventy theme](https://joshcrain.io/). The previous site style was adapted from the awesome and versatile [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/). Please see `CHANGELOG.md` for details.
 
 #### Local time conversion to [ISO-8601](https://www.iso.org/iso-8601-date-and-time-format.html) standard date expression:
 
