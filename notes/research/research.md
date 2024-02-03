@@ -13,7 +13,9 @@ version: "1.0"
       <div class="grid-content">
 
 ## Negative capacitance field-effect transistors (NCFETs)
-{% storyImage 'notes/research/ncfets.png', '' %}
+<div style="float: right; width: 25vw; min-width: 330px; padding:20px;">
+  {% storyImage 'notes/research/ncfets.png', '' %}
+</div>
 
 <p style="text-align: justify">Ferroelectric (FE) materials exhibit (i) two polarization states that can be switched by an externally applied voltage and (ii) non-volatile spontaneous polarization under zero bias. Based on Landau's phenomenological theory, there exists an unstable negative capacitance (NC) region when the polarization switches through the double-well energy profile. Therefore, NCFETs have been proposed as one of the promising beyond-CMOS devices that could potetially overcome the fundamental limit of sub-threshold slopes in the current MOSFETs [1]. In an NCFET, an FE layer is integrated on top of a transistor’s normal gate oxide. By keeping the NC state at the system’s energy minimum, the NC segment is proposed to be stabilized when the FE is in series with the intrinsic gate oxide of a field-effect transistor. </p>
 
@@ -31,7 +33,9 @@ version: "1.0"
     <div class="grid-content">
 
 ## SPICE circuit model of multi-domain ferroelectrics for phase-field simulations
-{% storyImage 'notes/research/phase-field.png', '' %}
+<div style="float: right; width: 35vw; min-width: 330px; padding:10px;">
+  {% storyImage 'notes/research/phase-field.png', '' %}
+</div>
 
 <p style="text-align: justify">The single domain approximation can be extended to capture the multi-domain nature of FEs with the phase-field approach. The phase-field model incorporates free energy contributions into the discretized domain cells of an FE layer when solving the time-dependent Ginzburg-Landau (TDGL) equation.</p>
 
@@ -65,7 +69,9 @@ version: "1.0"
     <div class="grid-content">
 
 ## Hysteresis-Free Negative Capacitance Effect in Metal-Ferroelectric-Insulator-Metal Capacitors 
-{% storyImage 'notes/research/circuit.png', '' %}
+<div style="float: right; width: 25vw; min-width: 330px; padding:15px;">
+  {% gridImage 'notes/research/circuit.png', '' %}
+</div>
 
 <p style="text-align: justify">The negative capacitance (NC) stabilization of a ferroelectric (FE) material can potentially provide an alternative way to further reduce the power consumption in ultrascaled devices and thus has been of great interest in technology and science in the past decade. In this paper, we present a physical picture for a better understanding of the hysteresis-free charge-boost effect observed experimentally in metal-ferroelectric-insulator-metal (M-F-I-M) capacitors. By introducing the dielectric (DE) leakage and interfacial trapped charges, our simulations of the hysteresis loops are in a strong agreement with the experimental measurements, suggesting the existence of an interfacial oxide layer at the FE-metal interface in metal-ferroelectric-metal (M-F-M) capacitors. Based on the pulse-switching measurements, we find that the charge enhancement and hysteresis are dominated by the FE domain viscosity and DE leakage, respectively. Our simulation results show that the underlying mechanisms for the observed hysteresis-free charge enhancement in M-F-I-M may be physically different from the alleged NC stabilization and capacitance matching. Moreover, the link between Merz’s law and the phenomenological kinetic coefficient is discussed, and the possible cause of the residual charges observed after pulse switching is explained by the trapped charge dynamics at the FE-DE interface. The physical interpretation presented in this work can provide useful insights into the NC effect in M-F-I-M capacitors and future studies of low-power logic devices. </p>
 

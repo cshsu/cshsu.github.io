@@ -6,7 +6,7 @@ image: art/digital/DSC_0242.JPG
 alt: Portfolio cover
 description: 
 medium: Digital camera
-year: 2023
+year: 2024
 date: 
 featured: true
 ---

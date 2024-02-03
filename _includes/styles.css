@@ -249,7 +249,8 @@ pre {max-width: 100%;overflow-x: auto;display: block;}
     position: relative;
     border-radius: var(--size-2);
     overflow: hidden;
-    max-width: 300px;
+    /* max-width: 300px; */
+    max-width: fit-content;
     margin:0 auto;
   }
   .tile p {margin:0;}
