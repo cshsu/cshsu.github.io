@@ -52,7 +52,7 @@ version: "1.0"
         
                     <a href="{{ item.url }}">{% gridImage item.data.image, item.data.alt %}</a>
                         <div class="tile_inner item_detail">
-                            <a href="{{ item.url }}" class="tile_link"><span class="tile_desc text--smaller">{{ item.data.title }}. {{ item.data.year }}. {{ item.data.medium }}.</span></a>
+                            <a href="{{ item.url }}" class="tile_link"><span class="tile_desc text--smaller">{{ item.data.title }} {{ item.data.year }} &ndash; {{ item.data.medium }}.</span></a>
                         </div>
                     </div>
                 {% endif %}

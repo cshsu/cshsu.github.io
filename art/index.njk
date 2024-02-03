@@ -11,7 +11,7 @@ description: Photos to share with you.
     {% for item in items %} 
     <div class="grid-third@l tile">
         
-    <a href="{{ item.url }}">{% gridImage item.data.image, item.data.alt %}</a>
+        <a href="{{ item.url }}">{% gridImage item.data.image, item.data.alt %}</a>
         <div class="tile_inner item_detail">
             <a href="{{ item.url }}" class="tile_link"><span class="tile_desc text--smaller">{{ item.data.title }} {{ item.data.year }} &ndash; {{ item.data.medium }}.</span></a>
         </div>
