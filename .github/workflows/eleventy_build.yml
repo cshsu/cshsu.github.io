@@ -25,9 +25,6 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          lfs: true
-          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
