@@ -1,6 +1,0 @@
-{
-    "layout": "layout.njk",
-    "category": "Contact",
-    "changefreq": "monthly",
-    "priority": "0.8"
-}

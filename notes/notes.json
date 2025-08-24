@@ -1,6 +1,0 @@
-{
-    "layout": "layout.njk",
-    "category": "Notes",
-    "changefreq": "monthly",
-    "priority": "0.8"
-}
