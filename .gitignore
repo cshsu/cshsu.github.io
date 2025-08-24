@@ -1,15 +1,29 @@
-# Local Netlify folder
-.netlify
-netlify.toml
+# Vim
+*~
+*.sw[p_]
 
-# Folders
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Ruby Gem
+*.gem
+.bundle
+Gemfile.lock
+**/vendor/bundle
+
+# Node.js and NPM
 node_modules
-_site
-_data
-.sass-cache
+npm-debug.log*
+package-lock.json
+codekit-config.json
 
-.vscode
+# macOS
 .DS_Store
-.obsidian
-.cache
-gh-pages.pub
+
+# Jekyll generated files
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+_site

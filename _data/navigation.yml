@@ -1,0 +1,55 @@
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "Home"
+  # url: https://cshsu.github.io/
+  - title: "CURRICULUM VITAE"
+    url: /resume/
+  - title: "RESEARCH"
+    url: /research/
+  - title: "NOTES"
+    url: /notes/preface/
+  - title: "CASUAL WRITING"
+    url: /writing/
+  - title: "ALBUMS"
+    url: /albums/
+  - title: "CONTACT"
+    url: /contact/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+# navigation sidebar: add the following to the YAML front matter
+# sidebar:
+#   nav: "albums"
+albums:
+  - title: My albums
+    children:
+      - title: "People"
+        url: /albums/people/
+      - title: "Badminton"
+        url: /albums/badminton/
+      - title: "GA, USA"
+        url: /albums/georgia/
+      - title: "Christmas trip"
+        url: /albums/christmas-trip/
+      - title: "Photography gear"
+        url: /albums/gear/
+
+writing:
+  - title: Casual writing
+    children:
+      - title: "舊檔案庫"
+        url: /writing/00-archive/
+      - title: "想法隨身攜帶"
+        url: /writing/portable-thoughts/
+
+notes:
+  - title: My techinal posts
+    children:
+      - title: "Preface"
+        url: /notes/preface/
+      - title: "Badminton"
+        url: /notes/badminton/
+      - title: "WKB notes"
+        url: /notes/wkb/
