@@ -2,6 +2,7 @@
 title: "Emerging Electronic Devices"
 permalink: /
 layout: single
+classes: wide
 author_profile: true
 header:
   overlay_color: "#5e616c"

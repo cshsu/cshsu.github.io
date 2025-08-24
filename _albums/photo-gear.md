@@ -1,5 +1,5 @@
 ---
-title: "Gear"
+title: "Photography Gear"
 excerpt: "My photography gear"
 header:
   teaser: /assets/images/album-teasers/Nikon Zfc.jpg

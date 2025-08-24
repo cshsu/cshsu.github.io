@@ -5,7 +5,7 @@ permalink: /resume/
 toc: true
 toc_label: "&nbsp Résumé"
 toc_sticky: true
-last_modified_at: 2023-05-03T14:28:04-06:00
+last_modified_at: 2025-08-24T12:00:17-07:00
 ---
 
 <div id="webaddress">
@@ -20,40 +20,38 @@ Please refer to the [PDF version](https://drive.google.com/file/d/1uzoWJRVh1aEyB
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
+[//]: # (This is a comment using the reference link hack.)
+
 ## <span style="color:#bc412b;">Technical Skills</span>
 
-**Expertise:** Memory devices and array layout design, post-silicon device characterization, data analysis automation, failure analysis, non-volatile memory (NVM), CMOS transistors, device physics, device-circuit co-optimization, physics-based device modeling, numerical and SPICE simulations, emerging devices, ferroelectric materials, phase change memory, academic writing, pre-silicon physical verification, digital/analog circuit fundamentals <br>
-**Scripting/Programming:** MATLAB, Python, Synopsys HSPICE, Cadence Spectre, Verilog-A <br>
-**Software:** Cadence Virtuoso (Schematic Editor and Layout Suite), Linux shell commands, LabVIEW, Git version control, SolidWorks, LaTeX, agile project management tool (Jira), Siemens Calibre <br>
-**Hardware:** ATE (Automatic Test Equipment), DMM (digital multimeter), oscilloscope, function generator, spectrum analyzer, microscope, machining, lab soldering, GPIB/IEEE-488 <br>
+**Expertise:**
++ Post-silicon memory device ATE characterization, pre-silicon physical verification
++ Data analysis automation, failure analysis
++ Non-volatile memory (NVM), CMOS transistors
++ Device physics, device-circuit co-optimization, physics-based device modeling, numerical and SPICE simulations, digital/analog circuit fundamentals
++ Emerging devices: ferroelectric materials, phase change memory
++ Academic writing
+
+**Scripting/Programming:** Python, MATLAB, Synopsys HSPICE, Cadence Spectre, Verilog-A
+
+**Software:** Cadence Virtuoso (Schematic Editor and Layout Suite), Linux shell commands, LabVIEW, Git version control, SolidWorks, LaTeX, agile project management tool (Jira), Siemens Calibre
+
+**Hardware:** ATE (Automatic Test Equipment), DMM (digital multimeter), oscilloscope, function generator, spectrum analyzer, microscope, machining, lab soldering, GPIB/IEEE-488 ATE control
+
 **Languages:** Mandarin Chinese (Native proficiency), English (Academic working proficiency)
-
-## <span style="color:#bc412b;">Education</span>
-<div style="text-align:left;">
-  <b>Ph.D. in Electrical and Computer Engineering</b>
-    <span style="float:right;">
-      <i>2014–2021</i>
-    </span>
-</div>
-
-*Georgia Institute of Technology*, Atlanta, GA, USA
-+ Advisor: Prof. Azad Naeemi
-+ Thesis: *An Exploration of Potential Pathways Toward Emerging Electronic Devices with Ferroelectric Materials*
-+ GPA: 3.75/4.00
-
-<div style="text-align:left;">
-  <b>B.S. in Electrical Engineering</b>
-    <span style="float:right;">
-      <i>2007–2011</i>
-    </span>
-</div>
-
-*National Tsing Hua University (NTHU)*, Hsinchu, Taiwan
-+ GPA: 3.91/4.00, class rank: 4/56
 
 ## <span style="color:#bc412b;">Work Experience</span>
 
-[//]: # "Position begins"
+<div style="text-align:left; font-size: 1em;">
+  <b><i>Device and Test Characterization Engineer</i></b>
+    <span style="float:right;">
+      <i>2023.07–Present</i>
+    </span>
+</div>
+
+onsemi, Gresham, OR, USA.
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray;">
 
 <div style="text-align:left; font-size: 1em;">
   <b><i>Semiconductor Design Engineer</i></b>
@@ -65,8 +63,6 @@ Please refer to the [PDF version](https://drive.google.com/file/d/1uzoWJRVh1aEyB
 Micron Technology, Inc., Boise, ID, USA.
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray;">
-
-[//]: # "Position ends"
 
 <div style="text-align:left; font-size: 1em;">
   <b><i>Device Research Engineer</i></b>
@@ -132,16 +128,6 @@ Mentor: Dr. Tien-Ming Chuang
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
 <div style="text-align:left;">
-  <b><i>Substitute Military Service</i></b>
-        <span style="float:right;">
-          <i>2012.04–2013.03</i>
-        </span>
-</div>
-Dasyueshan National Forest Recreation Area, Taichung, Taiwan. 
-
-<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-
-<div style="text-align:left;">
   <b><i>Teaching Assistant</i></b>
         <span style="float:right;">
           <i>2011.09–2012.02</i>
@@ -151,6 +137,31 @@ Dept. of Physics, National Tsing Hua University, Hsinchu, Taiwan.<br>
 Instructor: Prof. Jeng-Chung Chen
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+
+## <span style="color:#bc412b;">Education</span>
+<div style="text-align:left;">
+  <b>Ph.D. in Electrical and Computer Engineering</b>
+    <span style="float:right;">
+      <i>2014–2021</i>
+    </span>
+</div>
+
+*Georgia Institute of Technology*, Atlanta, GA, USA
++ Advisor: Prof. Azad Naeemi
++ Thesis: *An Exploration of Potential Pathways Toward Emerging Electronic Devices with Ferroelectric Materials*
++ GPA: 3.75/4.00
+
+<div style="text-align:left;">
+  <b>B.S. in Electrical Engineering</b>
+    <span style="float:right;">
+      <i>2007–2011</i>
+    </span>
+</div>
+
+*National Tsing Hua University (NTHU)*, Hsinchu, Taiwan
++ GPA: 3.91/4.00, class rank: 4/56
+
 
 ## <span style="color:#bc412b;">Publications</span>
 [Google Scholar](https://scholar.google.com/citations?user=Oz2aBZUAAAAJ&hl=en)
@@ -182,4 +193,4 @@ Instructor: Prof. Jeng-Chung Chen
 
 ## <span style="color:#bc412b;">Hobbies</span>
 
-badminton, photography, workout, handwriting, travel, mug and postcard collection
+badminton, photography, travel around

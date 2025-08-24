@@ -25,16 +25,16 @@ main:
 albums:
   - title: My albums
     children:
-      - title: "People"
-        url: /albums/people/
       - title: "Badminton"
         url: /albums/badminton/
-      - title: "GA, USA"
-        url: /albums/georgia/
       - title: "Christmas trip"
         url: /albums/christmas-trip/
+      - title: "GA, USA"
+        url: /albums/georgia/
+      - title: "People"
+        url: /albums/people/
       - title: "Photography gear"
-        url: /albums/gear/
+        url: /albums/photo-gear/
 
 writing:
   - title: Casual writing
